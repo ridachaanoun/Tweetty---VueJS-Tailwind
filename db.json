@@ -1,0 +1,21 @@
+{
+    "tweets": [
+      {
+        "id": 1,
+        "user": "user1",
+        "content": "This is a sample tweet!",
+        "likes": 10,
+        "retweets": 2,
+        "replies": []
+      },
+      {
+        "id": 2,
+        "user": "user2",
+        "content": "Hello world!",
+        "likes": 5,
+        "retweets": 1,
+        "replies": []
+      }
+    ]
+  }
+  
