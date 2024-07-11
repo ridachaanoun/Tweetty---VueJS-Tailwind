@@ -1,26 +1,31 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+ 
+
+    <div >
+      <TweetTimeline />
+    </div>
+   
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import TweetTimeline from './components/TweetTimeline.vue';
+
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TweetTimeline
+    
   }
-}
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #f5f8fa;
 }
 </style>

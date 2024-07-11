@@ -1,21 +1,57 @@
 {
-    "tweets": [
-      {
-        "id": 1,
-        "user": "user1",
-        "content": "This is a sample tweet!",
-        "likes": 10,
-        "retweets": 2,
-        "replies": []
+  "tweets": [
+    {
+      "id": "1",
+      "content": "Hello Twitter!",
+      "likes": 10,
+      "liked": false,
+      "retweeted": false,
+      "retweets": 99,
+      "replies": [
+        {
+          "id": 1,
+          "content": "reda"
+        },
+        {
+          "id": 2,
+          "content": "rr"
+        }
+      ],
+      "showReplyBox": false
+    },
+    {
+      "id": "2",
+      "content": "This is another tweet.",
+      "likes": 10,
+      "liked": false,
+      "retweeted": false,
+      "retweets": 90,
+      "replies": [
+        {
+          "id": 1,
+          "content": "jjj"
+        }
+      ],
+      "showReplyBox": false
+    },
+    {
+      "id": "15",
+      "content": "reda ",
+      "likes": 0,
+      "retweets": 0,
+      "liked": false,
+      "retweeted": false,
+      "replies": [
+        {
+          "id": 1,
+          "content": "read"
+        }
+      ],
+      "showReplyBox": true,
+      "user": {
+        "name": "new User"
       },
-      {
-        "id": 2,
-        "user": "user2",
-        "content": "Hello world!",
-        "likes": 5,
-        "retweets": 1,
-        "replies": []
-      }
-    ]
-  }
-  
+      "createdAt": "7/11/2024, 3:22:06 PM"
+    }
+  ]
+}
