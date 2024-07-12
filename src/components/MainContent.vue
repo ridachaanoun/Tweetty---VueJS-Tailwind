@@ -3,7 +3,7 @@
     <Home />
     <div class="bg-b p-4 mb-4 border-b">
       <form @submit.prevent="addTweet" class="flex space-x-4 items-center">
-        <img src="user-avatar.png" alt="User Avatar" class="h-10 w-10 rounded-full">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXJA32WU4rBpx7maglqeEtt3ot1tPIRWptxA&s" alt="User Avatar" class="h-10 w-10 rounded-full">
         <input v-model="newTweet" type="text" placeholder="What's happening?" class="flex-1 p-2 border rounded-lg" required />
         <!-- <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded-full">Tweet</button> -->
         <i class="fa-solid fa-image" style="color: #74C0FC;"></i>
