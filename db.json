@@ -1,57 +1,92 @@
 {
   "tweets": [
     {
-      "id": "1",
-      "content": "Hello Twitter!",
-      "likes": 10,
-      "liked": false,
-      "retweeted": false,
-      "retweets": 99,
+      "id": "3",
+      "content": "ji",
+      "likes": 1,
+      "retweets": 1,
+      "liked": true,
+      "retweeted": true,
       "replies": [
         {
           "id": 1,
-          "content": "reda"
+          "content": "e"
         },
         {
           "id": 2,
-          "content": "rr"
+          "content": "hh"
+        },
+        {
+          "id": 3,
+          "content": "reda"
         }
       ],
-      "showReplyBox": false
+      "showReplyBox": false,
+      "user": "John Doe",
+      "created_at": "2024-07-12T09:30:17.278Z"
     },
     {
       "id": "2",
-      "content": "This is another tweet.",
-      "likes": 10,
-      "liked": false,
-      "retweeted": false,
-      "retweets": 90,
+      "content": "reda",
+      "likes": 1,
+      "retweets": 1,
+      "liked": true,
+      "retweeted": true,
       "replies": [
         {
           "id": 1,
-          "content": "jjj"
+          "content": "hi"
         }
       ],
-      "showReplyBox": false
+      "showReplyBox": false,
+      "user": "John Doe",
+      "created_at": "2024-07-12T09:32:02.423Z"
     },
     {
-      "id": "15",
-      "content": "reda ",
-      "likes": 0,
-      "retweets": 0,
-      "liked": false,
-      "retweeted": false,
+      "id": "4",
+      "content": "fffffffffdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "likes": 1,
+      "retweets": 1,
+      "liked": true,
+      "retweeted": true,
+      "replies": [],
+      "showReplyBox": false,
+      "user": "John Doe",
+      "created_at": "2024-07-12T09:49:13.830Z"
+    },
+    {
+      "id": "1601",
+      "content": "reda",
+      "likes": 1,
+      "retweets": 1,
+      "liked": true,
+      "retweeted": true,
       "replies": [
         {
           "id": 1,
-          "content": "read"
+          "content": "hi"
         }
       ],
-      "showReplyBox": true,
-      "user": {
-        "name": "new User"
-      },
-      "createdAt": "7/11/2024, 3:22:06 PM"
+      "showReplyBox": false,
+      "user": "John Doe",
+      "created_at": "2024-07-12T09:55:13.558Z"
+    },
+    {
+      "id": "6c10",
+      "content": "reda",
+      "likes": 1,
+      "retweets": 1,
+      "liked": true,
+      "retweeted": true,
+      "replies": [
+        {
+          "id": 1,
+          "content": "hi"
+        }
+      ],
+      "showReplyBox": false,
+      "user": "John Doe",
+      "created_at": "2024-07-12T10:02:50.166Z"
     }
   ]
 }
