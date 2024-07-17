@@ -3,10 +3,10 @@
     {
       "id": "3",
       "content": "ji",
-      "likes": 1,
-      "retweets": 1,
-      "liked": true,
-      "retweeted": true,
+      "likes": 99,
+      "retweets": 99,
+      "liked": false,
+      "retweeted": false,
       "replies": [
         {
           "id": 1,
@@ -28,9 +28,9 @@
     {
       "id": "2",
       "content": "reda",
-      "likes": 1,
-      "retweets": 1,
-      "liked": true,
+      "likes": 98,
+      "retweets": 55,
+      "liked": false,
       "retweeted": true,
       "replies": [
         {
@@ -49,8 +49,17 @@
       "retweets": 1,
       "liked": true,
       "retweeted": true,
-      "replies": [],
-      "showReplyBox": false,
+      "replies": [
+        {
+          "id": 1,
+          "content": "hi"
+        },
+        {
+          "id": 2,
+          "content": "ggg"
+        }
+      ],
+      "showReplyBox": true,
       "user": "John Doe",
       "created_at": "2024-07-12T09:49:13.830Z"
     },
@@ -67,7 +76,7 @@
           "content": "hi"
         }
       ],
-      "showReplyBox": false,
+      "showReplyBox": true,
       "user": "John Doe",
       "created_at": "2024-07-12T13:19:49.283Z"
     }

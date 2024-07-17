@@ -39,7 +39,7 @@
               </form>
               <ul v-if="tweet.replies && tweet.replies.length" class="mt-2 space-y-2">
                 <li v-for="reply in tweet.replies" :key="reply.id" class="text-gray-700 text-sm">
-                  <img src="user-avatar.png" alt="User Avatar" class="inline-block h-6 w-6 rounded-full mr-2">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXJA32WU4rBpx7maglqeEtt3ot1tPIRWptxA&s" alt="User Avatar" class="inline-block h-6 w-6 rounded-full mr-2">
                   {{ reply.content }}
                 </li>
               </ul>

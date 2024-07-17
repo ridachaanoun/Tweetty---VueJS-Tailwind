@@ -1,7 +1,4 @@
 <template>
-
- 
-
     <div  >
       <TweetTimeline />
     </div>
@@ -12,13 +9,10 @@
 
 import TweetTimeline from './components/TweetTimeline.vue';
 
-
-
 export default {
   name: 'App',
   components: {
     TweetTimeline
-    
   }
 };
 </script>
